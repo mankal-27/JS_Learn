@@ -28,3 +28,39 @@ let someNumber = 333
 let stringNumber = String(someNumber);
 console.log("StringNumber ---", stringNumber);
 console.log("stringNumber Type of ", typeof stringNumber);
+
+// ****************** Operations ********************//
+
+let value = 3
+let negValue = -value
+console.log("NegValue ----", negValue);
+
+let str1 = "hello"
+let str2 = " Manjunath"
+let finalStr = str1 + str2
+console.log("final String ", finalStr);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(2 + 2 + "3");
+
+console.log(+true);
+console.log(+"");
+
+let gameCounter = 100;
+console.log("Old Counter ", gameCounter);
+gameCounter++;
+console.log("New counter ", gameCounter);
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
